@@ -64,7 +64,12 @@
     "start": "node app.js",
     "app": "nodemon app.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "npm install",
+    "build-client": "npm run build",
+    "start-client": "npm run start"
   },
   "eslintConfig": {
     "extends": [
